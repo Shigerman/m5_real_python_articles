@@ -14,14 +14,14 @@ def monitor(url):
 
         articles_from_txt_file: list = []
 
-        with open("new_articles.txt", "r", encoding="cp1251") as file:
+        with open("new_articles.txt", "r", encoding="utf-8") as file:
             for line in file:
                 articles_from_txt_file.append(line.strip())
 
-        for entry in feed.entries[:10]:
-            if "python" in entry.title.lower():
-                if 'podcast' not in entry.title.lower():
-                    if 'office' not in entry.title.lower():
+        for entry in feed.entries[:5]:
+            if 'podcasts' not in entry.id.lower():
+                if 'office' not in entry.id.lower():
+                    if 'courses' not in entry.id.lower():
                         truncated_title = (
                             entry.title[:maxlen] + "..."
                             if len(entry.title) > maxlen
@@ -32,8 +32,9 @@ def monitor(url):
                         if truncated_title not in articles_from_txt_file:
                             truncated_title = truncated_title + '\n'
                             with open("new_articles.txt", "a", 
-                                encoding="cp1251") as writer:
+                                encoding="utf-8") as writer:
                                 writer.write(truncated_title)
+                            print("We've got a new one!")
 
         time.sleep(60)
 
