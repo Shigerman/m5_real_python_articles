@@ -25,3 +25,13 @@ Start Contributing to Python: Your First Steps
 Python Community Interview With Moshe Zadka
 Build a Platform Game in Python With Arcade
 Python Basics: Paperback Now Available!
+Natural Language Processing With Python's NLTK Pac...
+Python News: What's New From April 2021?
+Write Pythonic and Clean Code With namedtuple
+Recursion in Python: An Introduction
+Build a Bulk File Rename Tool With Python and PyQt
+Embedded Python: Build a Game on the BBC micro:bit
+Visualizing Data in Python Using plt.scatter()
+Build a Blog Using Django, Vue, and GraphQL
+Python's filter(): Extract Values From Iterables
+Python Community Interview With Sebastián Ramírez
