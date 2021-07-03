@@ -24,7 +24,6 @@ Build a Python Directory Tree Generator for the Co...
 Start Contributing to Python: Your First Steps
 Python Community Interview With Moshe Zadka
 Build a Platform Game in Python With Arcade
-Python Basics: Paperback Now Available!
 Natural Language Processing With Python's NLTK Pac...
 Python News: What's New From April 2021?
 Write Pythonic and Clean Code With namedtuple
@@ -35,3 +34,6 @@ Visualizing Data in Python Using plt.scatter()
 Build a Blog Using Django, Vue, and GraphQL
 Python's filter(): Extract Values From Iterables
 Python Community Interview With Sebastián Ramírez
+Simplify Complex Numbers With Python
+Beautiful Soup: Build a Web Scraper With Python
+Reverse Python Lists: Beyond .reverse() and revers...
