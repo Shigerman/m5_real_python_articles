@@ -37,3 +37,6 @@ Python Community Interview With Sebastián Ramírez
 Simplify Complex Numbers With Python
 Beautiful Soup: Build a Web Scraper With Python
 Reverse Python Lists: Beyond .reverse() and revers...
+Python News: What's New From June 2021?
+What Can I Do With Python?
+Python's Counter: The Pythonic Way to Count Object...
